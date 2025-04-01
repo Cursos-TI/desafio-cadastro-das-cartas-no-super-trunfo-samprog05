@@ -9,6 +9,8 @@ int main(){
     float area1;
     float pib1;
     int pontoturistico1;
+    float densidade1;
+    float pibcapita1;
 
     printf("Estado da carta 1:\n");
     scanf("%c", &estado1);
@@ -38,6 +40,19 @@ int main(){
     scanf("%d", &pontoturistico1);
     printf("Número de Pontos Turísticos são: %d\n", pontoturistico1);
 
+    densidade1 = ( populacao1 / area1);
+
+    printf("Densidade Populacional é: %f\n", densidade1);
+
+    pibcapita1 = (pib1 / populacao1);
+
+    printf("O PIB per Capita é: %f\n", pibcapita1);
+
+
+
+
+
+
 
 
     printf("\nCarta 2\n");
@@ -48,6 +63,8 @@ int main(){
     float area2;
     float pib2;
     int pontosturisticos2;
+    float densidade2;
+    float pibcapita2;
 
     printf("Estado da carta 2:\n");
     scanf("%c", &estado2);
@@ -77,11 +94,24 @@ int main(){
     scanf("%d", &pontosturisticos2);
     printf("O Número de Pontos Turísticos são: %d", pontosturisticos2);
 
+    densidade2 = (populacao2 / area2);
+
+    printf("A Densidade Populacional é: %f\n", densidade2);
+
+    pibcapita2 = (pib2 / populacao2);
+
+    printf("Pib per Capita é: %f", pibcapita2);
+
+
+
 
 
 
 
    return 0;
+
+
+}
 
 
 
